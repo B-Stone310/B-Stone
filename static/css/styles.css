@@ -1,0 +1,53 @@
+/* 전체 페이지 스타일 */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 제목 스타일 */
+h1 {
+    font-size: 36px;
+    color: #c70707;
+    margin-top: 20px;
+}
+
+/* 문제 영역 스타일 */
+#question {
+    font-size: 28px;
+    color: #333333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* 선택지 버튼 스타일 */
+#options button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#options button:hover {
+    background-color: #45a049;
+}
+
+/* 모바일 반응형 디자인 */
+@media (max-width: 600px) {
+    #question {
+        font-size: 24px;
+    }
+
+    #options button {
+        font-size: 18px;
+        width: 90%;
+    }
+}
